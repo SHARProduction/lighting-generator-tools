@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "repository": "lighting-generator-tools",
+  "state": "LOCAL_READY",
+  "publisher": {
+    "name": "SHAR Production",
+    "website": "https://sharprod.com/"
+  },
+  "assets": [
+    {
+      "asset_id": "shar-pe400-w06-113",
+      "slug": "lighting-load-balancer",
+      "title": "Lighting Load Balancer",
+      "title_ru": "Балансировщик нагрузки света",
+      "family": "power",
+      "purpose": "Distributes fixture wattage across circuits and flags overloads.",
+      "purpose_ru": "Распределяет мощность приборов по линиям и отмечает перегрузки.",
+      "code_license": "MIT",
+      "taxonomy_and_synthetic_fixtures_license": "CC-BY-4.0",
+      "languages": [
+        "en",
+        "ru"
+      ],
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "state": "PLANNED"
+    },
+    {
+      "asset_id": "shar-pe400-w06-114",
+      "slug": "generator-fuel-estimator",
+      "title": "Generator Fuel Estimator",
+      "title_ru": "Оценка топлива генератора",
+      "family": "power",
+      "purpose": "Estimates fuel from runtime and load-dependent consumption.",
+      "purpose_ru": "Оценивает топливо по времени работы и расходу под нагрузкой.",
+      "code_license": "MIT",
+      "taxonomy_and_synthetic_fixtures_license": "CC-BY-4.0",
+      "languages": [
+        "en",
+        "ru"
+      ],
+      "publisher": {
+        "name": "SHAR Production",
+        "website": "https://sharprod.com/"
+      },
+      "state": "PLANNED"
+    }
+  ]
+}

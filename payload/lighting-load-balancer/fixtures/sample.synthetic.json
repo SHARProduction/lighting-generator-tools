@@ -1,0 +1,20 @@
+{
+  "circuits": [
+    {
+      "id": "C1",
+      "maxWatts": 3000
+    }
+  ],
+  "fixtures": [
+    {
+      "id": "L1",
+      "watts": 1200,
+      "circuit": "C1"
+    },
+    {
+      "id": "L2",
+      "watts": 800,
+      "circuit": "C1"
+    }
+  ]
+}

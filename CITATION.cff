@@ -1,0 +1,7 @@
+cff-version: 1.2.0
+title: "Lighting Load Balancer and Generator Fuel Estimator"
+authors:
+  - name: "SHAR Production"
+url: "https://sharprod.com/"
+license: MIT
+version: 1.0.0

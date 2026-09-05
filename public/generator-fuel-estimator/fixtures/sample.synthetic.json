@@ -1,0 +1,7 @@
+{
+  "runtimeHours": 10,
+  "loadPercent": 60,
+  "litersPerHourAtFullLoad": 8,
+  "idleFactor": 0.35,
+  "reservePercent": 15
+}

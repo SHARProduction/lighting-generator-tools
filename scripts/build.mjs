@@ -1,0 +1,1 @@
+import fs from'node:fs';import path from'node:path';const root=path.resolve(import.meta.dirname,'..'),src=path.join(root,'payload'),dst=path.join(root,'public');fs.rmSync(dst,{recursive:true,force:true});fs.cpSync(src,dst,{recursive:true});fs.cpSync(path.join(root,'src'),path.join(dst,'src'),{recursive:true});console.log('built public');
